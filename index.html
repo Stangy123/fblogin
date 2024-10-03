@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teach Code</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <section class="container forms">
+    <div class="form login">
+      <div class="form-content">
+        <h2>Login</h2>
+        <form action="#">
+          <div class="field input-field ">
+            <input type="email" placeholder="Email" class="email">
+          </div>
+          <div class="field input-field">
+            <input type="password" placeholder="Password" class="password">
+            <i class='bx bx-hide eye-icon'></i>
+            <i class='bx bx-show eye-icon' style="display:none;"></i>
+        </div>
+        
+        </form>
+          <div class="form-link">
+            <a href="#">Forgot Password?</a>
+          </div>
+          <div class="field button-field">
+            <a class="button" href="#" > Login</a>
+          </div>
+          <div class="form-link">
+            <span>Already have an account? <a href="#">Signup</a></span>
+          </div>
+        
+      </div>
+      <div class="line"></div>
+      <div class="media-option">
+        <button  class="field facebook">
+          <i class='bx bxl-facebook facebook-icon'></i>
+          <span>Login with Facebook</span>
+        </buttton>
+      </div>
+    </div>
+    
+  </section>
+
+  <script src="index.js"></script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+</body>
+</html>

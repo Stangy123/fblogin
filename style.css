@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif,'poppins';
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(64, 63, 63);
+}
+.form{
+    background: #FFF;
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 8px;
+}
+h2{
+    font-size: 28px;
+    font-weight: 600;
+    color: #232836;
+    text-align: center;
+}
+form{
+    margin-top: 30px;
+}
+.form .field{
+    border-radius: 6px;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+.field input,
+.field .button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+}
+.field .button{
+    background-color: #0171d3;
+    color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.field .button:hover{
+    background-color: #016dcb;
+    text-decoration: none;
+}
+.field input{
+    border: 1px solid #CACACA;
+    padding: 0 15px;
+    outline: none;
+}
+.field input:focus{
+    border-bottom-width: 2px;
+}
+.form-link{
+    text-align: center;
+    margin-top: 10px;
+}
+.form-link span,
+.form-link a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #232836;
+}
+.form a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+.form-content a:hover{
+    text-decoration: underline;
+}
+.eye-icon{
+    position: absolute;
+    font-size: 18px;
+    color: #8b8b8b;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    cursor: pointer;
+    padding: 5px;
+}
+.line{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: #d4d4d4;
+}
+.line::before{
+    content: 'Or';
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    transform: translate(-50%,-50%);
+    background-color: #FFF;
+    color: #232836;
+    padding: 0 15px;
+}
+.media-option a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.facebook{
+    color: #FFF;
+    background-color: #2358c0;
+    border: none;
+}
+
