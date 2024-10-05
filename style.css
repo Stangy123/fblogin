@@ -118,5 +118,22 @@ form{
     color: #FFF;
     background-color: #2358c0;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.google{
+    color: #FFF;
+    background-color: #2358c0;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.bxl-google,.bxl-facebook{
+    font-size: 30px;
+    position: absolute;
+    left: 50px;
+
+}
